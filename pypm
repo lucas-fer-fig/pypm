@@ -52,6 +52,6 @@ if [ -n "$1" ]; then
         *) echo "Invalid options" ;;
     esac
 else
-    source env/bin/activate &&
+    	source env/bin/activate &&
 	pip install -r requirements.txt;
 fi
